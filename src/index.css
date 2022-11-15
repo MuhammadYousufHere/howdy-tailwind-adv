@@ -1,6 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.theme-light {
+  --color-primary: theme(colors.blue.600);
+}
+.theme-dark {
+  --color-primary: theme(colors.fuchsia.400);
+}
 body {
   margin: 0;
   padding: 0;
